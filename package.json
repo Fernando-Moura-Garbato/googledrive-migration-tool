@@ -1,0 +1,20 @@
+{
+  "name": "gdr_teste",
+  "version": "0.0.0",
+  "description": "teste",
+  "main": "teste.js",
+  "scripts": {
+    "test": "test",
+    "start": "node --env-file secrets.env migrationTool.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.15.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "express": "^4.21.1",
+    "gdr_teste": "file:",
+    "googleapis": "^105.0.0"
+  }
+}
